@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#abacus-tool {
+  display: grid;
+  grid-template-columns: repeat(13, 8fr);
+  grid-gap: 0.5%;
+  border: 1px solid blue;
+  margin: 0 auto;
+  padding: 1% 1%;
+}
+
+.line {
+  padding: 1% 0%;
+  border: 0.2em solid gray;
+  margin: 0 auto;
+  height: 20em;
+}
+
+
+.line:hover {
+  cursor: pointer;
+  border: .3em solid brown;
+  /* width: 5px; 
+  transition: all 0.3s ease-in;*/
+}
+
+#hrbar {
+  position: absolute;
+  top: 15%;
+  width: 99%;
+  border: 2px solid red;
+}
+
+.megabead {
+  width: 10%;
+  height: 10%;
+  border: 2px solid yellowgreen;
+  border-radius: 4px;
+  transform: rotate(90deg);
+}
+
+.bead {
+  position:relative;
+  padding: 1% 1%;
+  top: 15%;
+  width: 10%;
+  height: 10%;
+  border: 2px solid red;
+  border-radius: 4px;
+  transform: rotate(90deg);
+}
+
+.on {
+  border: 2px solid yellow;
+  transition: all 0.4s ease-in;
+}
+
+
+.bead:hover {
+  border: 3px solid black;
+  transition: all 0.4s ease-in;
+}
+
+.megabead:hover {
+  border: 3px solid black;
+  transition: all 0.4s ease-in;
+}
+
+#result {
+  margin: 0 auto;
+  border: 2px solid magenta;
+  width: 100px;
+  height: 100px;
+}
